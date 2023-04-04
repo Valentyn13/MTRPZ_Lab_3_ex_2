@@ -1,16 +1,16 @@
 /*
 Copyright © 2022 NAME HERE <EMAIL ADDRESS>
-
 */
 package cmd
 
 import (
 	"fizzbuzz/lib"
 	"fmt"
-	"github.com/spf13/cobra"
 	"html/template"
 	"net/http"
 	"strconv"
+
+	"github.com/spf13/cobra"
 )
 
 // serveCmd represents the serve command
